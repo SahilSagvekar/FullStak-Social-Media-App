@@ -31,7 +31,7 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors(
   {
-    origin: ["https://full-stak-social-media-app.vercel.app/"],
+    origin: [""],
     methods: ["POST","GET"],
     credentials: true
   }
